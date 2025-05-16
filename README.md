@@ -4,6 +4,9 @@ Tämä ohje sisältää kaksi (2) osiota:
 Ohjelman käyttö- ja asennusohje sekä Ohjelman toiminnallisuudet
 
 
+Tiedostoista mokkiprojekti.zip sisältää ohjelmakoodin ja Mokkitietokanta.sql sisältää tietokannan projektille.
+
+
 
 Ohjelman käyttö- ja asennusohje
 
