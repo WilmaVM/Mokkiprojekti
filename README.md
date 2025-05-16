@@ -1,8 +1,7 @@
 # Mokkiprojekti
 
 Tämä ohje sisältää kaksi (2) osiota: 
-Ohjelman käyttö- ja asennusohje
-Ohjelman toiminnallisuudet
+Ohjelman käyttö- ja asennusohje sekä Ohjelman toiminnallisuudet
 
 
 
@@ -79,10 +78,12 @@ Ohjelmassa on kuusi (6) näkymää:
 -Raportit
 
 
-Näkymästä 1 (aloitusnäkymä) pääset siirtymään kaikkiin viiteen muuhun näkymään painikkeiden avulla. 
+Näkymästä 1)
+Aloitusnäkymä: pääset siirtymään kaikkiin viiteen muuhun näkymään painikkeiden avulla. 
 
 
-Näkymässä 2 (mökkien hallinta) pääsee tarkastelemaan yrityksen Mökkikodit hallinnoimia mökkejä ja niiden tietoja. 
+Näkymässä 2)
+Mökkien hallinta: pääsee tarkastelemaan yrityksen Mökkikodit hallinnoimia mökkejä ja niiden tietoja. 
 
 Mökkien tiedot esitetään taulukon muodossa:
 -mökin ID 
@@ -92,7 +93,8 @@ Mökkien tiedot esitetään taulukon muodossa:
 -hinta/yö
 
 
-Näkymässä 3 (asiakashallinta) pystyy tarkastelemaan asiakkuuksia, luomaan uusia sekä poistamaan tarpeettomia. Asiakkaista muodostuu yksilöintitunniste eli asiakas ID aina luomisen yhteydessä. 
+Näkymässä 3)
+Asiakashallinta: pystyy tarkastelemaan asiakkuuksia, luomaan uusia sekä poistamaan tarpeettomia. Asiakkaista muodostuu yksilöintitunniste eli asiakas ID aina luomisen yhteydessä. 
 
 Asiakashallinta sisältää taulukon, jossa tiedot esitetään. Taulukon lisäksi siinä on kolme teksikenttää:
 
@@ -103,7 +105,8 @@ Asiakashallinta sisältää taulukon, jossa tiedot esitetään. Taulukon lisäks
 Kun asiakas poistetaan, myös kaikki hänen varauksensa poistetaan [kts. käyttö ja asennusohjeen kohta 7].
 
 
-Näkymässä 4 (varausten hallinta) on mahdollista tarkastella tehtyjä varauksia ja niiden tietoja. Tarpeettomia tai vanhoja varauksia voi myös poistaa tässä näkymässä. Tämä näkymä on myös uusien varausten tekemistä varten. 
+Näkymässä 4)
+Varausten hallinta: on mahdollista tarkastella tehtyjä varauksia ja niiden tietoja. Tarpeettomia tai vanhoja varauksia voi myös poistaa tässä näkymässä. Tämä näkymä on myös uusien varausten tekemistä varten. 
 
 ’Valitse varattava mökki’ listassa valittuna ajankohtana varatut kohteet näkyvät punaisella. Varattavat ja siten vapaat mökit näkyvät puolestaan vihreällä.
 
@@ -115,11 +118,13 @@ Kun varaus poistetaan, myös kaikki varaukseen liittyvät laskut poistetaan [kts
 
 
 
-Näkymässä 5 (laskujen hallinta) voi tarkastella laskuja. Laskutus tapahtuu manuaalisesti ja uusia laskuja luodaan varaus ID numeron perusteella.
+Näkymässä 5)
+Laskujen hallinta: voi tarkastella laskuja. Laskutus tapahtuu manuaalisesti ja uusia laskuja luodaan varaus ID numeron perusteella.
 
 Ohjelmassa uutta laskua tehdessä on ensin syötettävä kelvollinen varaus ID. Varaus ID:n syöttämisen jälkeen ohjelma laskee automaattisesti varauksen keston ja kohteen perusteella laskulle summan. Eräpäivä on itse määriteltävissä, mutta syötäthän sen muodossa PP.KK.VVVV.
 
 Näkymässä voi myös poistaa laskuja ja muokata niitä eli toisin sanoen lisätä laskulle eräpäivän (muut muokkaukset on estetty). Muokkaus tapahtuu siten, että aktivoit taulukosta halutun laskurivin, syötät maksupäivän muodossa VVVV.KK.PP ja painat ’muokkaa laskua’ -painiketta. Tällöin maksupäivä päivittyy myös tietokantaan, taulukko näkymään sekä raportteihin ohjelmassa.
 
 
-Näkymässä 6 (raportit) on mahdollista tarkastella kolmea (3) eri raporttia; suosituin mökki, keskimääräisen varausajan kehittyminen kuukausittain sekä laskujen tila (saatavat ja suoritukset). 
+Näkymässä 6)
+Raportit: on mahdollista tarkastella kolmea (3) eri raporttia; suosituin mökki, keskimääräisen varausajan kehittyminen kuukausittain sekä laskujen tila (saatavat ja suoritukset). 
